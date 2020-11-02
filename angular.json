@@ -121,8 +121,13 @@
               "devServerTarget": "cs411-project:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "cs411-project"
 }
